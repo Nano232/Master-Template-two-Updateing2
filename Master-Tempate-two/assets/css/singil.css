@@ -1,0 +1,135 @@
+:root{
+    --main-color: #E86A33;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+/* ****************** */
+.heading .content .nav{
+    padding-top: 50px;
+}
+.heading .content .nav .links ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.heading .content .nav .links ul li{
+    list-style-type: none;
+}
+.heading .content .nav .links ul li a{
+    text-decoration: none;
+    color: #1C6758;
+    font-weight: bold;
+}
+.heading .content .nav .links ul li a:hover{
+    color: var(--main-color);
+    transition: .5s;
+}
+.heading .content .body{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.heading .content .body h4{
+    color: #02ffcc;
+    font-size: 20px;
+}
+.heading .content .body h2{
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+}
+.heading .content .body h2 span{
+    color: var(--main-color);
+}
+/* ****************** */
+.first-section .content .one{
+    padding: 20px;
+    border-bottom: 1px solid #1C6758;
+    color: #1C6758;
+}
+.first-section .content .one h2{
+    font-size: 3rem;
+}
+.first-section .content .one h6{
+    padding: 10px 0;
+}
+.first-section .content .one h6 span{
+    font-weight: bold;
+}
+.first-section .content .two{
+    padding: 20px;
+    border-bottom: 1px solid #1C6758;
+    color: #1C6758;   
+}
+.first-section .content .two h2{
+    font-size: 2rem;
+}
+.first-section .content .three{
+    padding: 20px;
+    border-bottom: 1px solid #1C6758;
+    color: #1C6758;  
+}
+.first-section .content .four{
+    padding: 20px;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+.first-section .content .four button{
+    color: #046350;
+    background-color: #02ffcc;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 10px 0;
+}
+.first-section .content .four button:hover{
+    color: white;
+    background-color: black;
+    transition: .5s;
+}
+.first-section .content .five{
+    display: flex;
+    justify-content: space-between;
+    color: #1C6758;
+    padding: 20px 0;
+}
+.first-section .content .six .content{
+    background-color: #02ffcc;
+    margin: 10px 20px;
+    padding: 20px 50px;
+}
+.first-section .content .six .content:hover{
+    background-color: black;
+    color: white;
+    transition: .5s;
+}
+/* ****************** */
+.footer{
+    padding: 100px 0;
+}
+.footer .container{
+    padding-left: 30px;
+}
+.footer img{
+    width: 100px;
+    padding-bottom: 20px;
+}
+.footer h4{
+    color: #1C6758;
+    padding-bottom: 20px;
+}
+.footer p a{
+    text-decoration: none;
+    color: 
+    black;
+}
+/* ****************** */
+.my-name .container{
+    padding: 0 0 50px 0;
+    font-weight: bold;
+}

@@ -1,0 +1,312 @@
+:root{
+    --main-color: #E86A33;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+/* ****************** */
+.heading{
+    background-color: #1C6758;
+    background-image: url(../images/Group-49.webp);
+}
+.heading .content .nav{
+    padding-top: 20px;
+}
+.heading .content .nav .links ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.heading .content .nav .links ul li{
+    list-style-type: none;
+}
+.heading .content .nav .links ul li a{
+    text-decoration: none;
+    color: white;
+}
+.heading .content .nav .links ul li a:hover{
+    color: var(--main-color);
+    transition: .5s;
+}
+.heading .content .body{
+    padding: 100px 0;
+    color: white;
+}
+.heading .content .body .title{
+    padding: 100px 0;
+}
+.heading .content .body h5{
+    color: #02ffcc;
+}
+.heading .content .body h2{
+    padding: 10px 0;
+}
+.heading .content .body h2 span{
+    color: var(--main-color);
+}
+.heading .content .body button{
+    background-color: var(--main-color);
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+}
+.heading .content .body button:hover{
+    background-color: black;
+    transition: .5s;
+}
+.heading .content .body .image img{
+    max-width: 100%;
+}
+/* ****************** */
+.first-section{
+    padding: 100px 0;
+}
+.first-section .content .image{
+    padding: 0 30px;
+}
+.first-section .content .image img{
+    max-width: 100%;
+}
+.first-section .content .title{
+    padding-top: 100px;
+    padding-left: 20px;
+}
+.first-section .content .title h6{
+    color: #1C6758;
+}
+.first-section .content .title h2 span{
+    color: var(--main-color);
+}
+.first-section .content .title .parent-div{
+    display: flex;
+}
+.first-section .content .title .parent-div .one span{
+    font-size: 30px;
+    color: rgba(191, 191, 38, 0.664);
+    font-weight: bold;
+}
+.first-section .content .title .parent-div .one p,
+.first-section .content .title .parent-div .two p{
+    font-weight: bold
+}
+.first-section .content .title .parent-div .two{
+    margin-left: 50px;
+}
+.first-section .content .title .parent-div .two span{
+    color: #E86A33;
+    font-size: 30px;
+    font-weight: bold;
+}
+/* ****************** */
+.second-section .content .title{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.second-section .content .title h6{
+    color: #1C6758;
+}
+.second-section .content .title h2{
+    font-weight: bold;
+}
+.second-section .content .title span{
+    color: var(--main-color);
+    font-size: 20px;
+    font-weight: bold;
+} 
+.second-section .content .title p{
+    color: #1C6758;
+    padding-top: 5px;
+}
+.second-section .content .first,
+.second-section .content .second{
+    padding: 0 20px;
+    margin: 20px 0;
+}
+.second-section .content .first img{
+    width: 100px;
+}
+.second-section .content .first span{
+    color: #1C6758;
+    display: block;
+}
+.second-section .content .first p{
+    padding: 10px 0;
+}
+.second-section .content .first a{
+    text-decoration: none;
+    padding-bottom: 5px;
+    border-bottom: 3px solid var(--main-color);
+    color: var(--main-color);
+}
+.second-section .content .second img{
+    width: 100px;
+}
+.second-section .content .second span{
+    color: #1C6758;
+    display: block;
+}
+.second-section .content .second p{
+    padding: 10px 0;
+}
+.second-section .content .second a{
+    text-decoration: none;
+    padding-bottom: 5px;
+    border-bottom: 3px solid var(--main-color);
+    color: var(--main-color);
+}
+.second-section .content .third{
+    margin-top: 20px;
+}
+.second-section .content .third .child h5{
+    font-weight: bold;
+}
+.second-section .content .third .child p{
+    color: #1C6758;
+}
+/* ****************** */
+.third-section{
+    background-color: #1C6758;
+}
+.third-section .content .title{
+    text-align: center;
+    padding: 100px 0;
+}
+.third-section .content .title h5{
+    color: #02ffcc;
+}
+.third-section .content .title h2{
+    color: white;
+    font-weight: bold;
+}
+.third-section .content .title h2 span{
+    color: var(--main-color);
+}
+.third-section .content .body{
+    background-color: white;
+    text-align: center;
+    margin: 20px 0;
+}
+.third-section .content .body:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.third-section .content .body img{
+    max-width: 100%;
+}
+.third-section .content .body h5{
+    padding: 10px 0;
+    margin: 0;
+}
+.third-section .content .body span{
+    color: #02ffcc;
+    display: block;
+    padding-bottom: 10px;
+}
+.third-section .content .body .icons{
+    padding-bottom: 100px;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.third-section .content .button{
+    text-align: center;
+    margin: 30px 0;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.third-section .content .button button{
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--main-color);
+    color: white;
+}
+.third-section .content .button button:hover{
+    background-color: black;
+    transition: .5s;
+}
+/* ****************** */
+.fourth-section .content .title{
+    padding: 50px 0px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.fourth-section .content .title h5{
+    color: #02ffcc;
+    padding: 10px 0;
+}
+.fourth-section .content .title h2{
+    color: #1C6758;
+}
+.fourth-section .content .title h2 span{
+    color: var(--main-color);
+}
+.fourth-section .content .title p{
+    color: #1C6758;
+    padding-top: 10px;
+}
+.fourth-section .content .images{
+    text-align: center;
+}
+.fourth-section .content .images .imagediv{
+    margin: 20px 0;
+}
+/* ****************** */
+.fifth-section{
+    padding: 150px 0;
+    margin: 100px 0;
+    text-align: center;
+    background-color: #1C6758;
+    background-image: url(../images/Group-49.webp);
+}
+.fifth-section .title h2{
+    color: white;
+    font-weight: bold;
+}
+.fifth-section .title h2 span{
+    color: var(--main-color);
+}
+.fifth-section .title button{
+    padding: 20px 30px;
+    border: 0;
+    background-color: var(--main-color);
+    color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.fifth-section .title button:hover{
+    background-color: black;
+    transition: .5s;
+}
+/* ****************** */
+.footer{
+    padding: 10px 0;
+}
+.footer .container{
+    padding-left: 30px;
+}
+.footer img{
+    width: 100px;
+    padding-bottom: 20px;
+}
+.footer h4{
+    color: #1C6758;
+    padding-bottom: 20px;
+}
+.footer p a{
+    text-decoration: none;
+    color: 
+    black;
+}
+/* ****************** */
+.my-name .container{
+    padding: 0 0 50px 0;
+    font-weight: bold;
+}

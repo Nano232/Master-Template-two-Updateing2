@@ -1,0 +1,231 @@
+:root{
+    --main-color: #E86A33;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+/* ****************** */
+.heading{
+    background-color: #1C6758;
+    background-image: url(../images/Group-49.webp);
+}
+.heading .content .nav{
+    padding-top: 20px;
+}
+.heading .content .nav .links ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.heading .content .nav .links ul li{
+    list-style-type: none;
+}
+.heading .content .nav .links ul li a{
+    text-decoration: none;
+    color: white;
+}
+.heading .content .nav .links ul li a:hover{
+    color: var(--main-color);
+    transition: .5s;
+}
+.heading .content .body{
+    text-align: center;
+    padding: 200px 0;
+}
+.heading .content .body h5{
+    color: #02ffcc;
+    padding-bottom: 10px;
+}
+.heading .content .body h2{
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+.heading .content .body h2 span{
+    color: var(--main-color);
+    font-weight: bold;
+}
+/* ****************** */
+.first-section .content .image{
+    margin: auto;
+    overflow-x: hidden;
+    margin-top: -100px;
+}
+.first-section .content .image img{
+    width: 100%;
+}
+/* ****************** */
+.second-section .content .title{
+    text-align: center;
+    padding: 50px 0;
+}
+.second-section .content .title h5{
+    color: #02ffcc;
+}
+.second-section .content .title h2 span{
+    color: var(--main-color);
+}
+.second-section .content .body{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.second-section .content .body:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.second-section .content .body img{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.second-section .content .body h4{
+    padding: 15px 0;
+}
+.second-section .content .body p{
+    color: #1C6758;
+}
+.second-section .content .body .icons{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+/* ****************** */
+.third-section{
+    background-color: #1C6758;
+    padding: 80px 0;
+}
+.third-section .content .image img{
+    max-width: 100%;
+}
+.third-section .content .title{
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.third-section .content .title .title-content h5{
+    color: #02ffcc;
+}
+.third-section .content .title .title-content h2{
+    color: white;
+}
+.third-section .content .title .title-content h2 span{
+    color: var(--main-color);
+}
+.third-section .content .title .title-content p{
+    color: #eee;
+}
+.third-section .content .title .title-content .parent-div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.third-section .content .title .title-content .parent-div .small-img{
+    padding-right: 30px;
+}
+/* ****************** */
+.fourth-section{
+    background-image: url(../images/Frame-55.webp);
+    padding: 100px 0;
+}
+.fourth-section .content .title{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.fourth-section .content .title h5{
+    color: #02ffcc;
+}
+.fourth-section .content .title h2{
+    color: #1C6758;
+}
+.fourth-section .content .title h2 span{
+    color: var(--main-color);
+}
+.fourth-section .content .left div{
+    padding: 30px;
+    background-color: #eee;
+    margin: 20px 0;
+}
+.fourth-section .content .left div:hover{
+    background-color: black;
+    transition: .5s;
+}
+.fourth-section .content .left div h5{
+    color: #1C6758;
+}
+.fourth-section .content .left div p{
+    color: #1C6758;
+}
+.fourth-section .content .right div{
+    padding: 30px;
+    background-color: #eee;
+    margin: 20px 0;
+}
+.fourth-section .content .right div:hover{
+    background-color: black;
+    transition: .5s;
+}
+.fourth-section .content .right div h5{
+    color: #1C6758;
+}
+.fourth-section .content .right div p{
+    color: #1C6758;
+}
+/* ****************** */
+.fifth-section{
+    padding: 150px 0;
+    margin: 100px 0;
+    text-align: center;
+    background-color: #1C6758;
+    background-image: url(../images/Group-49.webp);
+}
+.fifth-section .title h2{
+    color: white;
+    font-weight: bold;
+}
+.fifth-section .title h2 span{
+    color: var(--main-color);
+}
+.fifth-section .title button{
+    padding: 20px 30px;
+    border: 0;
+    background-color: var(--main-color);
+    color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.fifth-section .title button:hover{
+    background-color: black;
+    transition: .5s;
+}
+/* ****************** */
+.footer{
+    margin-top: 50px;
+    padding: 10px 0;
+}
+.footer .container{
+    padding-left: 30px;
+}
+.footer img{
+    width: 100px;
+    padding-bottom: 20px;
+}
+.footer h4{
+    color: #1C6758;
+    padding-bottom: 20px;
+}
+.footer p a{
+    text-decoration: none;
+    color: 
+    black;
+}
+/* ****************** */
+.my-name .container{
+    padding: 0 0 50px 0;
+    font-weight: bold;
+}
